@@ -7,6 +7,7 @@ SRCREV = "${AUTOREV}"
 PVBASE := "${PV}"
 PV = "${PVBASE}.${SRCPV}"
 
+S = "${WORKDIR}/tpm2.0-tools"
 SRC_URI = " \
     git://github.com/01org/tpm2.0-tools.git;protocol=git;branch=master;name=tpm2.0-tools;destsuffix=tpm2.0-tools \
 "
