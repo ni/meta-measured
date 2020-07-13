@@ -16,4 +16,4 @@ SRC_URI += " \
 "
 SRCREV = "master"
 
-inherit autotools distutils-base
+inherit autotools distutils-common-base
