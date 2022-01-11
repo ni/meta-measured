@@ -5,7 +5,7 @@ DEFAULT_PREFERENCE = "-1"
 BRANCH = "master"
 
 SRC_URI = " \
-    git://github.com/tpm2-software/tpm2-tools.git;branch=${BRANCH} \
+    git://github.com/tpm2-software/tpm2-tools.git;branch=${BRANCH};protocol=https \
     "
 
 S = "${WORKDIR}/git"
