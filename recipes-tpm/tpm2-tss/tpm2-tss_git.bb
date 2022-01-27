@@ -2,7 +2,7 @@ include ${BPN}.inc
 
 DEFAULT_PREFERENCE = "-1"
 
-SRC_URI = "git://github.com/tpm2-software/${BPN}.git;protocol=git;branch=master;name=${BPN};destsuffix=${BPN}"
+SRC_URI = "git://github.com/tpm2-software/${BPN}.git;protocol=https;branch=master;name=${BPN};destsuffix=${BPN}"
 
 S = "${WORKDIR}/${BPN}"
 
