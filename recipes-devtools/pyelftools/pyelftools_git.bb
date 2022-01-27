@@ -11,7 +11,7 @@ LIC_FILES_CHKSUM = "file://LICENSE;md5=5ce2a2b07fca326bc7c146d10105ccfc"
 RDEPENDS_${PN} = "python python-contextlib python-debugger python-pprint"
 RDEPENDS_${PN}_class-native = "python"
 SRC_URI += " \
-    git://github.com/eliben/pyelftools \
+    git://github.com/eliben/pyelftools;protocol=https \
 "
 SRCREV = "master"
 
