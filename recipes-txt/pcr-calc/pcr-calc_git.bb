@@ -12,7 +12,7 @@ LIC_FILES_CHKSUM = "file://COPYING;md5=b234ee4d69f5fce4486a80fdaf4a4263"
 DEPENDS = "python-pyelftools-native"
 RDEPENDS_${PN} = "python python-argparse python-compression python-mmap python-netclient python-textutils python-pyelftools"
 SRC_URI += " \
-    git://github.com/flihp/pcr-calc.git \
+    git://github.com/flihp/pcr-calc.git;protocol=https \
 "
 SRCREV = "master"
 
